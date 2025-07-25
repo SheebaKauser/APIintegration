@@ -7,4 +7,10 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
+  server: {
+    allowedHosts: ['apiintegration-8fwg.onrender.com','localhost'],
+    port: 80,
+    
+    
+  }
 })
