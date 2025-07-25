@@ -9,6 +9,7 @@ export default defineConfig({
   ],
   server: {
     allowedHosts: ['apiintegration-8fwg.onrender.com','localhost'],
+    host:'0.0.0.0',
     port: 80,
     
     
