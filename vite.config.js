@@ -8,7 +8,7 @@ export default defineConfig({
     tailwindcss(),
   ],
   server: {
-    allowedHosts: ['apiintegration-8fwg.onrender.com','localhost'],
+    allowedHosts: ['apiintegrations.onrender.com','localhost'],
     host:'0.0.0.0',
     port: 80,
     
